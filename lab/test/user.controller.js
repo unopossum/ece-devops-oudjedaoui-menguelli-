@@ -13,9 +13,9 @@ describe('User', () => {
 
     it('create a new user', (done) => {
       const user = {
-        username: 'sergkudinov',
-        firstname: 'Sergei',
-        lastname: 'Kudinov'
+        username: 'opossum',
+        firstname: 'Sami ',
+        lastname: 'Oudjedaoui'
       }
       userController.create(user, (err, result) => {
         expect(err).to.be.equal(null)
